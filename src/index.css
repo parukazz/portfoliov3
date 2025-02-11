@@ -20,7 +20,7 @@
 @theme {
   /* Color */
   --color-primary: #040404;
-  --color-text-heading: #ffffff;
+  --color-text-heading: #fdffff;
   --color-text-base: #d1d1d6;
   --color-accent: #62f11a;
 
@@ -29,11 +29,23 @@
   --font-sans: "NeueMontreal", sans-serif;
   --text-heading-1: 6rem;
   --text-heading-2: 4rem;
+  --text-mini: 0.813rem;
+  --text-seminormal: 0.875rem;
 
   /* Spacing */
   --spacing-120: 120%;
   --spacing-150: 150%;
 
+  --tracking-base: 4%;
+
   /* Container */
   --container-desktop: 84rem;
+}
+
+* {
+  @apply font-sans;
+}
+
+.typo-heading {
+  @apply font-heading text-text-heading -tracking-base;
 }
