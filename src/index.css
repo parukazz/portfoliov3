@@ -1,1 +1,39 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: Satoshi;
+  font-style: normal;
+  font-weight: 400 500 700 800;
+  font-display: swap;
+  src: url("assets/fonts/satoshi/Satoshi-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: NeueMontreal;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/neuemontreal/NeueMontreal-Regular.otf")
+    format("opentype");
+}
+
+@theme {
+  /* Color */
+  --color-primary: #040404;
+  --color-text-heading: #ffffff;
+  --color-text-base: #d1d1d6;
+  --color-accent: #62f11a;
+
+  /* Typography */
+  --font-heading: "Satoshi", sans-serif;
+  --font-sans: "NeueMontreal", sans-serif;
+  --text-heading-1: 6rem;
+  --text-heading-2: 4rem;
+
+  /* Spacing */
+  --spacing-120: 120%;
+  --spacing-150: 150%;
+
+  /* Container */
+  --container-desktop: 84rem;
+}
