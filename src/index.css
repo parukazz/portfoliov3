@@ -23,6 +23,7 @@
   --color-text-heading: #fdffff;
   --color-text-base: #d1d1d6;
   --color-accent: #62f11a;
+  --color-line: #404040;
 
   /* Typography */
   --font-heading: "Satoshi", sans-serif;
@@ -34,6 +35,7 @@
 
   /* Spacing */
   --spacing-120: 120%;
+  --spacing-140: 140%;
   --spacing-150: 150%;
 
   --tracking-base: 4%;
@@ -48,4 +50,8 @@
 
 .typo-heading {
   @apply font-heading text-text-heading -tracking-base;
+}
+
+.transition-base {
+  @apply transition duration-300 ease-in-out;
 }
