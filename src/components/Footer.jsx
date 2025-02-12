@@ -13,7 +13,7 @@ const Footer = () => {
         <Button label="Contact Me" icon={GoArrowUpRight} />
       </div>
       <SectionBar section="contact me" label="get in touch" />
-      <div className="w-full py-6 flex justify-between items-center text-sm tracking-tight">
+      <div className="w-full pt-6 pb-8 flex justify-between items-center text-sm tracking-tight">
         <div className="w-1/3">
           <a href="#" className="underline">
             parukazziyi@gmail.com
