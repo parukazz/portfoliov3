@@ -24,6 +24,7 @@
   --color-text-base: #d1d1d6;
   --color-accent: #62f11a;
   --color-line: #404040;
+  --color-primary-opacity: rgba(4, 4, 4, 0.6);
 
   /* Typography */
   --font-heading: "Satoshi", sans-serif;
@@ -49,7 +50,7 @@
 }
 
 .typo-heading {
-  @apply font-heading text-text-heading -tracking-base;
+  @apply font-heading -tracking-base;
 }
 
 .transition-base {
